@@ -47,6 +47,8 @@ This guide provides step-by-step instructions to install the Spin model checker 
    ### Example Images:
    ![Step : Open Ubuntu Command Line](./images/step11.jpg)
    open Ubuntu and it will be installed 
+
+   Then Open VS-CODE
    
    ![Step : Open Ubuntu Command Line](./images/step04.jpg)
 
