@@ -105,8 +105,6 @@ iSpin requires the `wish` interpreter, which is provided by Tcl/Tk.
    - If everything is installed correctly, the iSpin graphical interface should open in a new window.
 
    ### Example Images:
-     
-   ![Step 1: Opening Windows Features](./images/step06.jpg)
    
    ![Step 2: Enabling the Feature](./images/step07.jpg)
    
