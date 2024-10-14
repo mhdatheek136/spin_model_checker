@@ -109,7 +109,8 @@ For those who want to use Spin directly from the command line in the WSL environ
 
 - **Update Ubuntu**:  
   ```bash
-  sudo apt update && sudo apt upgrade
+  sudo apt update
+  sudo apt upgrade
   ```
 
 - **Install Spin**:  
