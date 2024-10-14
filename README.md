@@ -20,6 +20,23 @@ This guide provides step-by-step instructions to install the Spin model checker 
    ```
    - This command installs WSL 2 and the default Linux distribution (Ubuntu).
    - Restart your computer if prompted.
+   - ![Step Install WSL: Command](./images/step01.jpg)
+     
+   ## Step: Turn on Windows Features
+   
+   1. **Open Control Panel**:
+      - Navigate to **Control Panel > Programs > Turn Windows features on or off**.
+   
+   2. **Enable the Desired Feature**:
+      - Check the box for one of the following features.
+      - Click **OK** and restart your computer when prompted.
+   
+   ### Example Images:
+   
+   ![Step 1: Opening Windows Features](./images/step02.jpg)
+   
+   ![Step 2: Enabling the Feature](./images/step03.jpg)
+
 
 3. **Launch Ubuntu**:
    - After the restart, search for **Ubuntu** in the Start menu and launch it. The setup may take a few moments to complete.
@@ -60,7 +77,7 @@ This guide provides step-by-step instructions to install the Spin model checker 
 
 1. Clone this repository containing all files from the `pc_spin651.zip` archive:
    ```bash
-   git clone <repository-link>
+   git clone mhdatheek136/spin_model_checker
    ```
 
 ---
@@ -109,7 +126,8 @@ For those who want to use Spin directly from the command line in the WSL environ
 
 - **Update Ubuntu**:  
   ```bash
-  sudo apt update && sudo apt upgrade
+  sudo apt update
+  sudo apt upgrade
   ```
 
 - **Install Spin**:  
@@ -126,7 +144,12 @@ For those who want to use Spin directly from the command line in the WSL environ
   ```bash
   sudo apt install graphviz
   ```
-
+  
+- **Install GCC** (if not already installed):
+   ```bash
+   sudo apt install gcc
+   ```
+   
 - **Run iSpin**:  
   ```bash
   wish ispin.tcl
