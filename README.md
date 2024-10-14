@@ -20,6 +20,23 @@ This guide provides step-by-step instructions to install the Spin model checker 
    ```
    - This command installs WSL 2 and the default Linux distribution (Ubuntu).
    - Restart your computer if prompted.
+   - ![Step Install WSL: Command](./images/step01.jpg)
+     
+   ## Step: Turn on Windows Features
+   
+   1. **Open Control Panel**:
+      - Navigate to **Control Panel > Programs > Turn Windows features on or off**.
+   
+   2. **Enable the Desired Feature**:
+      - Check the box for one of the following features.
+      - Click **OK** and restart your computer when prompted.
+   
+   ### Example Images:
+   
+   ![Step 1: Opening Windows Features](./images/step02.jpg)
+   
+   ![Step 2: Enabling the Feature](./images/step03.jpg)
+
 
 3. **Launch Ubuntu**:
    - After the restart, search for **Ubuntu** in the Start menu and launch it. The setup may take a few moments to complete.
