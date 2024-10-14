@@ -25,11 +25,14 @@ This guide provides step-by-step instructions to install the Spin model checker 
    ## Step: Turn on Windows Features
    
    1. **Open Control Panel**:
-      - Navigate to **Control Panel > Programs > Turn Windows features on or off**.
+      - Go to **Control Panel > Programs > Turn Windows features on or off**.
    
-   2. **Enable the Desired Feature**:
-      - Check the box for one of the following features.
+   2. **Enable Windows Features**:
+      - Scroll down and check the boxes for:
+        - **Windows Machine Platform**
+        - **Windows Hypervisor Platform**
       - Click **OK** and restart your computer when prompted.
+
    
    ### Example Images:
    
@@ -40,6 +43,10 @@ This guide provides step-by-step instructions to install the Spin model checker 
 
 3. **Launch Ubuntu**:
    - After the restart, search for **Ubuntu** in the Start menu and launch it. The setup may take a few moments to complete.
+  
+   ### Example Images:
+   
+   ![Step : Open Ubuntu Command Line](./images/step04.jpg)
 
 ---
 
@@ -50,6 +57,9 @@ This guide provides step-by-step instructions to install the Spin model checker 
    sudo apt update
    sudo apt upgrade
    ```
+   ### Example Images:
+   
+   ![Step : Update the Package List](./images/step05.jpg)
 
 2. **Install Spin**:
    ```bash
@@ -79,7 +89,9 @@ This guide provides step-by-step instructions to install the Spin model checker 
    ```bash
    git clone mhdatheek136/spin_model_checker
    ```
-
+   or 
+   Use this link: https://spinroot.com/spin/Src/index.html to download pc_spin651.zip , extarct and then open in vs code.
+   
 ---
 
 ## Step 4: Run iSpin (Using wish)
@@ -92,7 +104,17 @@ iSpin requires the `wish` interpreter, which is provided by Tcl/Tk.
    ```
    - If everything is installed correctly, the iSpin graphical interface should open in a new window.
 
+   ### Example Images:
+   
+   ![Step 2: Enabling the Feature](./images/step07.jpg)
+   
+   ![Step 2: Enabling the Feature](./images/step08.jpg)
+   
+   ![Step 2: Enabling the Feature](./images/step09.jpg)
+
+   ![Step 2: Enabling the Feature](./images/step10.jpg)
 ---
+
 
 ## Step 5: Using Spin and iSpin in WSL (Optional)
 
@@ -116,6 +138,7 @@ For those who want to use Spin directly from the command line in the WSL environ
    ```
 
 ---
+
 
 ## Summary of Commands
 
