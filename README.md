@@ -45,6 +45,8 @@ This guide provides step-by-step instructions to install the Spin model checker 
    - After the restart, search for **Ubuntu** in the Start menu and launch it. The setup may take a few moments to complete.
   
    ### Example Images:
+   ![Step : Open Ubuntu Command Line](./images/step11.jpg)
+   open Ubuntu and it will be installed 
    
    ![Step : Open Ubuntu Command Line](./images/step04.jpg)
 
