@@ -127,7 +127,12 @@ For those who want to use Spin directly from the command line in the WSL environ
   ```bash
   sudo apt install graphviz
   ```
-
+  
+- **Install GCC** (if not already installed):
+   ```bash
+   sudo apt install gcc
+   ```
+   
 - **Run iSpin**:  
   ```bash
   wish ispin.tcl
