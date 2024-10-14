@@ -60,7 +60,7 @@ This guide provides step-by-step instructions to install the Spin model checker 
 
 1. Clone this repository containing all files from the `pc_spin651.zip` archive:
    ```bash
-   git clone <repository-link>
+   git clone mhdatheek136/spin_model_checker
    ```
 
 ---
